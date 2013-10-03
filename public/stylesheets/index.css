@@ -1,0 +1,9 @@
+body {
+	padding-top: 60px;
+	background-color:black;
+}
+
+.kineticjs-content{
+	background-color:black;
+	border: 1px solid black;
+}

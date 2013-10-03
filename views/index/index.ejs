@@ -1,0 +1,16 @@
+<% var title = 'Farm2War | Index' %>
+<% var css = 'index' %>
+<% include ./../layouts/header %>
+
+<div class="container">
+	<div id="game"></div>
+	<div id="infos">test</div>
+</div>
+
+<% include ./../layouts/scripts %>
+<script src="/socket.io/socket.io.js"></script> 
+
+<script data-main="/farm2war/Game.js" src="/farm2war/libraries/require.js"></script>
+</body>
+</html>
+

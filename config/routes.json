@@ -1,0 +1,37 @@
+{
+    "routes" :{
+    	"controllers" :{
+	        "users" :{
+		        "signin" :{
+		            "path":"/signin",
+		            "method":"get",
+		            "before":false
+		        },
+		        "signinForm" :{
+		            "path":"/signin",
+		            "method":"post",
+		            "before":false
+		        },
+		        "login" :{
+		            "path":"/login",
+		            "method":"get",
+		            "before":false
+		        },
+		        "loginForm" :{
+		            "path":"/login",
+		            "method":"post",
+		            "before":false
+		        },
+		        "logout" :{
+		            "path":"/logout",
+		            "method":"get",
+		            "before":true
+		        }
+	        }
+        },
+        "sockets" :{
+        	"index" :{
+	        }      
+        }
+    }
+}
